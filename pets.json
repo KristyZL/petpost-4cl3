@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Bella",
+    "age": "2",
+    "breed": "Golden Retriever",
+    "image_url": "https://petpost-images-kristyliu.s3.us-east-1.amazonaws.com/bella.jpg"
+  },
+  {
+    "name": "Whiskers",
+    "age": "1",
+    "breed": "Siamese Cat",
+    "image_url": "https://petpost-images-kristyliu.s3.us-east-1.amazonaws.com/whiskers.jpg"
+  },
+  {
+    "name": "Chico",
+    "age": "4",
+    "breed": "Chihuahua",
+    "image_url": "https://petpost-images-kristyliu.s3.us-east-1.amazonaws.com/chico.jpg"
+  }
+]

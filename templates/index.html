@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head><title>PetPost</title></head>
+<body>
+<h1>Adoptable Pets</h1>
+<a href="/upload">Add a Pet</a>
+<ul>
+  {% for pet in pets %}
+  <li>
+    <strong>{{ pet.name }}</strong> ({{ pet.age }}) - {{ pet.breed }}<br>
+    <img src="{{ pet.image_url }}" width="200">
+  </li>
+  {% endfor %}
+</ul>
+</body>
+</html>
